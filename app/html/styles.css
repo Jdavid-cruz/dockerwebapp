@@ -1,0 +1,82 @@
+/* Fondo con gradiente */
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    background: linear-gradient(to bottom, #1f3a64, #4e81a1); /* Gradiente de azul oscuro a azul claro */
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* Estilo del Header (título) */
+header {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 3em;
+    font-style: italic;
+    color: white;
+}
+
+/* Estilo del texto principal */
+h1, h2, p {
+    font-size: 1.2em;
+}
+
+/* Estilo del subtítulo (Sobre mí y sobre el proyecto) */
+h2 {
+    text-transform: uppercase;
+    font-style: italic;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Estilo de los párrafos */
+p {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+/* Estilo de las palabras clave (Docker, Nginx) */
+.docker, .nginx {
+    color: #003b5c; /* Azul oscuro */
+    font-weight: bold;
+}
+
+/* Estilo de la sección "Sobre mí" y "Sobre el Proyecto" */
+section {
+    margin: 40px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3); /* Fondo oscuro con transparencia */
+    border-radius: 10px;
+}
+
+/* Estilo del texto destacado */
+strong {
+    font-weight: bold;
+    color: #ffcc00; /* Color amarillo para destacar */
+}
+
+/* Estilo para enlaces */
+a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de la ballena con guiones */
+.preformatted-text {
+    font-family: monospace;
+    font-size: 18px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: #003b5c;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 30px auto;
+    width: 90%;
+    text-align: center;
+}
